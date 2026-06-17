@@ -355,6 +355,3 @@ This project is licensed under the **ISC License**. See the [LICENSE](LICENSE) f
 
 ---
 
-<p align="center">
-  Built with ❤️ by <strong>Akash S</strong> — Empowering fitness through intelligent technology
-</p>
