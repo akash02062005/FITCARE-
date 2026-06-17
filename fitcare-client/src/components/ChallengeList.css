@@ -1,0 +1,66 @@
+.challenge-container {
+  padding-top: 500px; 
+  padding-bottom: 200px;
+}
+
+
+.challenge-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.challenge-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.challenge-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.read-more-btn {
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.challenge-form {
+  max-width: 600px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  margin: 40px auto; 
+  text-align: center; 
+}
+
+
+.challenge-form .form-control {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}
+.selected-challenge-box {
+  max-width: 800px;
+  background-color: #f0f9ff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.challenge-content-box p.challenge-line {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+

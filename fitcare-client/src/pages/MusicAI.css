@@ -1,0 +1,113 @@
+.music-page {
+  min-height: 100vh;
+  padding-top: 100px;
+  transition: background 0.5s ease;
+}
+
+body.music-dark .music-page {
+  background: linear-gradient(to bottom right, #0d3e77, #0e7d42);
+}
+
+body.music-light .music-page {
+  background: linear-gradient(to bottom right, #dbeafe, #fef9c3);
+}
+
+.theme-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 999;
+  background-color: #444;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+body.music-light .theme-toggle-btn {
+  background-color: #ddd;
+  color: #111;
+}
+
+.music-content {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.section-title {
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section-subtext {
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+}
+
+.playlist-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.music-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.large-input {
+  font-size: 1.2rem;
+  padding: 0.75rem;
+  width: 300px;
+}
+
+.music-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.music-card {
+  background-color: rgba(104, 90, 170, 0.951);
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 280px;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.music-card h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.music-card a {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.music-card:hover {
+  transform: translateY(-5px);
+}
+
+body.music-light .music-card {
+  background-color: #ffffff;
+  color: #111;
+  border: 1px solid #ccc;
+}

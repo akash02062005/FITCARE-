@@ -1,0 +1,25 @@
+.blog-form-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  background: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.blog-form input,
+.blog-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.blog-message {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
+

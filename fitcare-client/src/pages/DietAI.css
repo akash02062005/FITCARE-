@@ -1,0 +1,265 @@
+.diet-page {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.diet-hero {
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.diet-hero .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.diet-hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.diet-hero p {
+  font-size: 1.1rem;
+}
+
+.section-light {
+  background-color: #f9f9f9;
+}
+
+.section-white {
+  background-color: #fff;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  position: relative;
+  color: #111;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #0d6efd;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.intro-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.intro-text {
+  flex: 1 1 50%;
+}
+
+.intro-img {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.intro-img img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.diet-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.diet-card:hover {
+  transform: translateY(-5px);
+}
+
+.diet-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.diet-card .btn,
+.tip-card .btn {
+  margin-top: 12px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 25px;
+  border: none;
+  background-color: #0d6efd;
+  color: #fff;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.25);
+}
+
+.diet-card .btn:hover,
+.tip-card .btn:hover {
+  background-color: #084fcb;
+  transform: translateY(-2px);
+}
+
+.slider-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 24px;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding: 20px;
+  scrollbar-width: none; 
+}
+
+.slider-row::-webkit-scrollbar {
+  display: none; 
+}
+
+.tip-card {
+  flex: 0 0 31%;
+  max-width: 31%;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tip-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+.tip-card img {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.diet-form {
+  padding: 60px 0;
+}
+
+.diet-cta {
+  background: linear-gradient(to right, #0d6efd, #1a73e8);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.diet-cta h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.diet-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.diet-cta .btn {
+  font-size: 1.1rem;
+  padding: 10px 24px;
+  background: #ffffff;
+  color: #0d6efd;
+  border-radius: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.diet-cta .btn:hover {
+  background: #eaf2ff;
+}
+
+@media (max-width: 768px) {
+  .intro-row {
+    flex-direction: column;
+  }
+
+  .card-row {
+    justify-content: center;
+  }
+
+  .slider-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.diet-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.diet-form-container input,
+.diet-form-container select {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.diet-form-container input:focus,
+.diet-form-container select:focus {
+  outline: none;
+  border-color: #0d6efd;
+}
+
+.diet-form-container button {
+  background-color: #0d6efd;
+  color: #fff;
+  padding: 0.75rem 1.4rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.diet-form-container button:hover {
+  background-color: #0b5ed7;
+}

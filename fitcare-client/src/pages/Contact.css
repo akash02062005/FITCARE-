@@ -1,0 +1,90 @@
+.contact-page {
+  padding-top: 120px;
+  background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+  min-height: 100vh;
+  color: #f0f0f0;
+}
+
+.contact-heading {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-info,
+.contact-form {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 2rem;
+  border-radius: 15px;
+  width: 360px;
+  color: #f0f0f0;
+  backdrop-filter: blur(6px);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #ffffff10;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.contact-form button,
+.home-btn {
+  background-color: #ffc107;
+  color: #111;
+  padding: 12px 24px;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover,
+.home-btn:hover {
+  background-color: #ffb300;
+}
+
+.map-container iframe {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 3rem;
+}
+
+.chat-icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.chat-icons svg {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.chat-icons svg:hover {
+  transform: scale(1.1);
+}

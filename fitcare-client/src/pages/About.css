@@ -1,0 +1,164 @@
+.about-page {
+  padding-top: 120px;
+  color: #f0f0f0;
+  background: linear-gradient(135deg, #10141f, #1c2c40);
+  min-height: 100vh;
+}
+
+.mt-nav-offset {
+  margin-top: 40px;
+}
+
+.about-top-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.about-img {
+  width: 350px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.about-intro {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-intro h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.about-intro p {
+  font-size: 1.1rem;
+  color: #dcdcdc;
+  margin-bottom: 1rem;
+}
+
+.about-sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.about-box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-box h3 {
+  font-size: 1.4rem;
+  color: #ffc107;
+  margin-bottom: 0.8rem;
+}
+
+.about-box p {
+  font-size: 1rem;
+  color: #d0d0d0;
+  line-height: 1.5;
+}
+
+.timeline-section {
+  margin-top: 4rem;
+  padding: 2rem 1rem;
+}
+
+.timeline-section h3 {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.timeline {
+  list-style: none;
+  padding-left: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.timeline li {
+  border-left: 4px solid #ffc107;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.timeline-year {
+  font-weight: bold;
+  color: #ffc107;
+  font-size: 1.2rem;
+}
+.team-section {
+  margin-top: 4rem;
+}
+
+.team-section h3 {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.team-card {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: #f0f0f0;
+  font-size: 1rem;
+  min-width: 240px;
+  text-align: left;
+  transition: transform 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.team-card h5 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #ffc107;
+}
+
+.team-card p {
+  margin: 0.3rem 0;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.home-btn {
+  background-color: #ffc107;
+  border: none;
+  color: #111;
+  padding: 20px 30px;
+  font-size: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.home-btn:hover {
+  background-color: #ffb300;
+}
